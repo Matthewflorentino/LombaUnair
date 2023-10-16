@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img.ai {
+    position: absolute;
+        z-index: -5;
+        top: 65%;
+        left: 80%;
+        width:200px;
+}
+
+img.ph {
+    position: absolute;
+        z-index: -5;
+        top: 88%;
+        left: 4%;
+        width: 170px;
+}
+
+img.ph2 {
+    position: absolute;
+        z-index: -5;
+        top: 245%;
+        left: 75%;
+        width: 270px;
+}
+
+img.b1 {
+    position: absolute;
+        z-index: -5;
+        top: 135%;
+        left: -25%;
+        width: 100%;
+}
+
+img.globe {
+    animation: globe 15s linear infinite;
+    }
+
+img.img01 {
+    position: absolute;
+    left: 65%;
+    top: 310%;
+    max-width: 100%;
+}
+img.img02 {
+    position: absolute;
+    right: 65%;
+    top: 310%;
+    max-width: 100%;
+    
+
+}
+
+
+
+img.c1 {
+    animation: c1 5s ease-in-out 0.5s infinite alternate forwards;
+}
+
+@keyframes c1{
+    0% {
+        position: absolute;
+    right: 75%;
+    top: 320%;
+    z-index: -2;
+    max-width: 100%;   
+      }
+    
+      100% {
+        position: absolute;
+    right: 65%;
+    top: 320%;
+    z-index: -2;
+    max-width: 100%;
+      }
+}
+img.c2 {
+    animation: c2 5s ease-in-out 0.5s infinite alternate forwards;
+}
+
+@keyframes c2{
+    0% {
+        position: absolute;
+    right: 5%;
+    z-index: -2;
+    top: 310%;
+    max-width: 100%;  
+      }
+    
+      100% {
+        position: absolute;
+    right: 0%;
+    top: 310%;
+    z-index: -2;
+    max-width: 100%;
+      }
+}
